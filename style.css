@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+footer{
+    width: 100%;
+    background:#202020 ;
+    color: white;
+    /*padding:40px:*/
+}
+.container-footer-all{
+    width: 100%;
+    max-width: fit-content 1200px;
+    margin:auto;
+    padding: 40px;
+
+}
+.container-body{
+    display:flex;
+    justify-content: space-between;
+}
+.coloumna1 h2{
+    font-size: 22px;
+}
+.coloumna1 p{
+    font-size: 14px;
+    color: #c7c7c7;
+    margin-top: 20px;
+
+}
+.coloumna2 {
+    max-width: 400px;
+}
+.coloumna2 h2{
+    font-size: 22px;
+}
+.row{
+    margin-top: 20px;
+    display:flex;/*imagenes*/
+
+}
+.row img{
+    width: 36px;
+    height: 36px;
+}
+.row label{
+    margin-top: 10px;
+    margin-left:20px;
+    color: #c7c7c7;
+
+}
+.columna3 {
+    max-width: 400px;
+
+}
+.columna3 h2 {
+    font-size: 22px;
+}
+.row2 {
+    margin-top: 2opx;
+    display: flex;/*imagenes */
+}
+.row2 img {
+    width: 36px;
+    height: 36px;
+}
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 170px;
+    color: #FFFFFF;
+
+}
+.container-footer{
+    width: 100%;
+    background: #101010;
+    /*display:flex;*/
+    /*padding:20px;*/
+    /*justify-content:border:
+    space-beteen;*/
+    padding:20px;
+}
+.footer{
+    max-width: 1200px;
+    display:flex;
+    margin: auto;
+    justify-content:space-beteen;
+    padding: 20px;
+}
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight:bold;/*letra mas gruesa */
+}
+.information{
+    text-decoration:none;
+    color:#c7c7c7;
+}
+ .information a{
+    text-decoration: none;
+    color:#c7c7c7;
+ }
+ /*responsive*/
+ @media screen and (max-width:1100px) {
+    .container-body{
+        /*display:
+        block*/
+        flex:wrap;
+
+    }
+    .columna2, .columna3¨{
+        margin-top:;
+    }
+    .columna1{
+max-width:
+100%;
+    }
+}
+
+    
+ 
+
+
